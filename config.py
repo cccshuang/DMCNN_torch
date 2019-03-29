@@ -19,11 +19,11 @@ def to_var(x):
 class Config(object):
     def __init__(self):
         self.gpu = "4"
-        self.path_t = 'data/tri.train1'
+        self.path_t = 'data/tri.train'
         self.path_a = 'data/arg.train'
-        self.path_test_t = 'data/tri.test1'
+        self.path_test_t = 'data/tri.test'
         self.path_test_a = 'data/arg.test'
-        self.path_modelt = 'data/modelt1'
+        self.path_modelt = 'data/modelt'
         self.path_debug = 'data/debug'
         self.lr = 1
         self.weight_decay = 1e-5
